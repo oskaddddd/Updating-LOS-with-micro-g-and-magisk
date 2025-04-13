@@ -37,7 +37,7 @@ In the recovery navigate to **Apply update** and **Apply from ADB**.
 
 ### Sideload the LOS package
 ```
-adb sideload {path-to-LOS}.zip
+adb sideload <path-to-LOS>.zip
 ```
 It will say that the key signature is invalid and ask you if you want to continue anyways, press yes.
 
@@ -45,9 +45,10 @@ If the sideload finished succesfully, don't reboot yet, but again navigate to **
 
 ### Sideload the magisk package
 ```
-adb sideload {path-to-magisk}.zip
+adb sideload <path-to-magisk>.zip
 ```
 After this you can reboot. The startup may take a little longer.
 
-Navigate to the magisk app. It may promt you to do some stuff. Follow the instructions there. That's it
+Navigate to the magisk app. It may promt you to do some stuff. Follow the instructions there. That's it.
+Here's a link with more detailed info: https://magiskmodule.gitlab.io/proguide/update-lineageos-adb-sideload/
 
